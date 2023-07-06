@@ -9,32 +9,13 @@
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li style="background-color: grey; display: inline-block;"><a href="#"><img src="img/logo/logo.png" alt="logotype"></a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <ul  style="background-color: grey;">
-                <li><a href="#"><img src="img/icon/icon-twitter.png" alt="icon-twitter"></a></li>
-                <li><a href="#"><img src="img/icon/icon-linkedin.png" alt="icon-linkedin"></a></li>
-                <li><a href="#"><img src="img/icon/icon-facebook.png" alt="icon-facebook"></a></li>
-            </ul>
-        </div>
+        <nav data-include="partials/header-nav.partial.html"></nav>
+        <nav data-include="partials/header-best-products.partial.html"></nav>       
     </header>
     <main>
-        <section>
-            <h1>The best products start with Figma</h1>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <button type="submit">Try For Free</button>
-        </section>
+    </main>
+    <!--  <main>
+        
         <section>
             <h2>Features</h2>
             <p>Most calendars are designed for teams. 
@@ -260,6 +241,7 @@
                 <img src="img/icon/icon-linkedin.png" alt="sosial-net">
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 </html>
