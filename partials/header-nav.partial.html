@@ -1,19 +1,34 @@
-<nav class="header-nav">
-    <div class="header-nav__left">
-        <ul class="header-nav__left-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li style="background-color: grey; display: inline-block;"><a href="#"><img src="img/logo/logo.png" alt="logotype"></a></li>
-        </ul>
-    </div>
-    <div class="header-nav__rigt">
-        <ul  class="header-nav__right-list" style="background-color: grey;">
-            <li><a href="#"><img src="img/icon/icon-twitter.png" alt="icon-twitter"></a></li>
-            <li><a href="#"><img src="img/icon/icon-linkedin.png" alt="icon-linkedin"></a></li>
-            <li><a href="#"><img src="img/icon/icon-facebook.png" alt="icon-facebook"></a></li>
-        </ul>
-    </div>
-</nav>
+<div class="header-wrapper">
+    <nav class="header-nav navbar navbar-expand-lg">
+        <div class="container">
+            <div class="collapse navbar-collapse dropdown" id="header-nav">
+                <div class="header-nav__links navbar-nav dropdown">
+                    <a class="header-nav__links-link text-white nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="header-nav__links-link nav-link text-white" href="#products">Products</a>
+                    <a class="header-nav__links-link nav-link text-white" href="#pricing">Pricing</a>
+                    <a class="header-nav__links-link nav-link text-white" href="#about">About</a>
+                    <a class="header-nav__links-link nav-link text-white" href="#contacts">Contacts</a>
+                </div>
+            </div>
+            <a class="header-nav__logo" href="#"><img src="img/logo/logo.png" alt="logotype"></a>
+            <div class="header-nav__social collapse navbar-collapse">
+                <a href="#" class="header-nav__social-link"><img src="img/icon/icon-twitter.png" alt="icon-twitter"></a>
+                <a href="#" class="header-nav__social-link"><img src="img/icon/icon-linkedin.png"
+                        alt="icon-linkedin"></a>
+                <a href="#" class="header-nav__social-link"><img src="img/icon/icon-facebook.png"
+                        alt="icon-facebook"></a>
+            </div>
+            <button class="header-nav__btn navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#header-nav" aria-controls="header-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img src="../img/icon/burger-menu.png" alt="burger-menu">
+        </button>
+        </div>
+    </nav>
+    <section class="header-best-products">
+        <h1 class="header-best-products__title">The best products start with Figma</h1>
+        <p class="header-best-products__subtitle">Most calendars are designed for teams. Slate is designed for
+            freelancers</p>
+        <a class="header-best-products__button" href="#">Try For Free</a>
+    </section>
+</div>

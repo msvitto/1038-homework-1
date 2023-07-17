@@ -1,0 +1,21 @@
+.header-wrapper{
+    background: url(../img/picture/backgroud-header.png) center center / cover no-repeat;
+    color: var(--text-color);
+    min-height: 930px;
+}
+.header-nav__btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.header-nav__social-link{
+    margin-right: 24px;
+}
+.header-nav__logo{
+    margin:0 290px 0 10px;
+}
+@media (min-midth:768px){
+    .header-wrapper{
+        max-height: 828px;
+    }
+
+}
