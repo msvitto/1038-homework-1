@@ -1,0 +1,105 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.features__title{
+    font-size: 48px;
+    margin-top: 90px;
+}
+.features__subtitle{
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+.features__video-content{
+    width: 386px;
+    height: 216px;
+    border-radius: 15px;
+}
+.features__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.features__card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.card-content__image{
+    width: 61px;
+    height: 61px;
+    margin-bottom: 20px;
+}
+.card-content__title{
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 214px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-content__subtitle{
+    font-size: 18px;
+    max-width: 265px;
+    text-align: center;
+}
+.features__video-content-girl{
+    display: none;
+}
+@media (min-width:768px){
+    .features{}
+    .features__title{
+        font-size: 48px;
+        text-align: center;
+    }
+    .features__subtitle{
+        font-size: 28px;
+        max-width: 532px;
+        text-align: center;
+    }
+    .features__video-content{
+        display: none;
+    }
+    .features__card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .features__video-content-girl{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .features__video-content-girl-image{
+        display: flex;
+        justify-content: center;
+        max-width: 1000px;
+        max-height: 658px;
+        border-radius: 45px;
+    }
+    .features__video-content-girl-play-wrapper{
+        width: 157px;
+        height: 157px;
+        background-color: var(--btn-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .features__video-content-girl-play{
+        width: 39px;
+        height: 39px; 
+    }
+}
