@@ -33,7 +33,7 @@
     transition: all 0.3s ease;
 }
 .fastest-way__block-btn:hover{
-    border: 1px var(--text-color) solid;
+    border: 1px var(--bg-footer-color) solid;
 }
 .fastest-way__image{
     max-width: 372px;
