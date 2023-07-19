@@ -3,7 +3,7 @@
     color: var(--text-color);
     min-height: 930px;
 }
-.header-nav__btn:focus {
+.header-nav__btn:hover{
     outline: none;
     box-shadow: none;
 }
