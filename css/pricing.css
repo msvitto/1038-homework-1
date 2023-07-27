@@ -1,0 +1,103 @@
+.pricing__carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pricing__carousel-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pricing__carousel-btn-prev{
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-footer-color);
+    border: none;
+}
+img{
+    width: 100%;
+    color: var(--title-color);
+}
+.pricing__carousel-btn-next{
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-footer-color);
+    border: none;
+}
+.pricing{
+    background-color: var(--bg-footer-color);
+}
+.pricing__title{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: var(--title-color);
+    font-size: 48px;
+}
+.pricing__subtitle{
+    display: flex;
+    justify-content: center;
+    color: var(--title-color);
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.carousel-slide__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    border-radius: 10px;
+}
+.card-bg-light{
+    background-color: var( --title-color);
+}
+.card-bg-dark{
+    background-color: var(--btn-color);
+    color: var(--title-color);
+}
+.carousel-slide__card-title{
+    padding-top: 43px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.carousel-slide__card-subtitle{
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 144px;
+    text-align: center;
+}
+.carousel-slide__card-price{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.carousel-slide__card-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.carousel-slide__card-btn-dark{
+    width: 255px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: var(--btn-color);
+    color: var(--title-color);
+    margin-bottom: 40px;
+    border: 1px var(--title-color) solid;
+}
+.carousel-slide__card-btn-light{
+    width: 255px;
+    height: 56px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 35px;
+    background-color: var(--title-color);
+    color: var(--btn-color);
+    margin-bottom: 40px;
+    border: 1px var(--btn-color) solid;
+}

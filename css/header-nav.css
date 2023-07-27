@@ -58,6 +58,10 @@
 .header-best-products__button:hover{
     border: 1px var(--text-color) solid;
 }
+.header-nav__social-clock{
+    color: var(--text-color);
+    font-size: 25px;
+}
 @media (min-width:768px){
     .header-wrapper{
         max-height: 828px;

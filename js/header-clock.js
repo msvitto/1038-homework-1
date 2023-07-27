@@ -1,3 +1,6 @@
 const clock = document.querySelector('.header-nav__social-clock');
-
-clock.innerText = new Date().toLocaleTimeString();
+function updateClick(){
+clock.innerText = new Date().toLocaleTimeString('uk');
+}
+setInterval(updateClick,1000);
+updateClick();
