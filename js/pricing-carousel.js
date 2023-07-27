@@ -9,6 +9,14 @@ let currentSlide =0;
 
 function renderSlide(){
     carouselSlide.innerHTML= slides[currentSlide];
+    if (window.innerWidth >= 768){
+        const secondSlideIdx = currentSlide +1 >= slides.length ? 0: currentSlide +1;
+        carouselSlide.innerHTML += slides[secondSlideIdx];
+        if (window.innerWidth >= 1024){
+            const thirdSlideIdx= secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx +1;
+            carouselSlide.innerHTML += slides[thirdSlideIdx];
+        }
+    }
 }
 function nextSlide(){
     currentSlide = currentSlide +1 >= slides.length ? 0 : currentSlide +1;
@@ -26,3 +34,5 @@ const btnNext = document.querySelector('.pricing__carousel-btn-next');
 
 btnPrev.addEventListener('click', prevSlide);
 btnNext.addEventListener('click', nextSlide);
+
+window.addEventListener('resize', renderSlide);
