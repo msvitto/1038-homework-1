@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    padding-bottom: 50px;
 }
 .pricing__carousel-slide{
     display: flex;
