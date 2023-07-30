@@ -91,7 +91,7 @@ img{
     border: 1px var(--title-color) solid;
 }
 .carousel-slide__card-btn-dark:hover{
-    border: 1px var(--text-color) solid;
+    border: 1px var(--bg-footer-color) solid;
 }
 .carousel-slide__card-btn-light{
     width: 255px;
@@ -105,5 +105,5 @@ img{
     border: 1px var(--btn-color) solid;
 }
 .carousel-slide__card-btn-light:hover{
-    border: 1px var(--text-color) solid;
+    border: 1px var(--bg-footer-color) solid;
 }
