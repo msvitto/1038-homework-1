@@ -3,4 +3,5 @@ document.addEventListener('partialsLoaded', ()=>{
     import ('./header-clock.js');
     import ('./pricing-carousel.js');
     import ('./contact-form.js');
+    import ('./partners-carousel.js');
 });
