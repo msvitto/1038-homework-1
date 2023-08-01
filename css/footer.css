@@ -58,6 +58,7 @@
 .footer__info-phone-description{
     font-size: 15px;
     margin-bottom: 0;
+    color: var(--title-color);
 }
 .footer__info-social{
     display: flex;
